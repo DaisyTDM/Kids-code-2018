@@ -1,0 +1,27 @@
+.game-area {
+  width: 300px;
+  height: 300px;
+  background-image: url(http://i.imgur.com/7a6TP8X.png);
+  border: 5px solid hsl(40, 20%, 50%);
+}
+
+.good-guy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50px;
+}
+
+.bullet {
+  width: 10px;
+  position: absolute;
+  display: none;
+}
+
+.crab {
+  width: 30px;
+  position: absolute;
+  top: 135px;
+  left: 135px;
+  z-index: 10;
+}
